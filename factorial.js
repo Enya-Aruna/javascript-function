@@ -6,5 +6,5 @@ for(i = 1 ; i<=number ; i++){
 }
 return answer;
 }
-const factorial = factorialNumber(3);
+const factorial = factorialNumber(7);
 console.log(factorial)
