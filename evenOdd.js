@@ -1,4 +1,4 @@
-function evenOdd(number){
+function evenVsOdd(number){
 
     const reminder = number % 2 ;
   if(reminder === 0){
@@ -9,5 +9,5 @@ function evenOdd(number){
   };
 };
 
-console.log(evenOdd(201));
-console.log(evenOdd(1026));
+console.log(evenVsOdd(201));
+console.log(evenVsOdd(1026));
