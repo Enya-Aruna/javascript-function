@@ -15,7 +15,7 @@
 
 function isJavaScriptFile(fileName){
     if(typeof fileName !== "string"){
-        return "please provide me a valid file name "
+        return "please provide me a valid file name (string) "
     }
     else{
         const arry = fileName.split(".")
@@ -27,3 +27,4 @@ function isJavaScriptFile(fileName){
 
 const file = isJavaScriptFile('png.jpg.html.pdf.js')
 console.log( file)
+
