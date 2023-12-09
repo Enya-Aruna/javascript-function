@@ -1,9 +1,6 @@
 function mindGame(x){
-    if(typeof x !== "number"){
-        return "please provide a number"
-    }
-    else if(x <= 0){
-        return "plase provide a positive number"
+    if(typeof x !== "number" || x <= 0){
+        return "please provide a valid number"
     }
     else {
         const result = (((x*3)+10)/2)-5 ;
