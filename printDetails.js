@@ -3,11 +3,12 @@ function printDetails(person){
         return "you will provide an object"
     }
     else{
-        const name= person.name || 'nai' ;
-        const age= person.age || 'nai' ;
-        const email= person.email|| 'nai' ;
-        const jamay= person.jamay|| 'nai' ;
-        return 'amr nam '  + name +  '. amr boyos ' + age + '. amr email ' + email + '. amr jamay ' + jamay + '.'
+      
+        const name= person.name || '__' ;
+        const age= person.age || '__' ;
+        const email= person.email|| '__' ;
+        const jamay= person.jamay|| '__' ;
+        return   name + age + email +jamay ;
 }
 }
 
